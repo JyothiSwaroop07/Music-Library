@@ -1,9 +1,4 @@
-Given four files `SongController.java`, `SongRepository.java`, `SongService.java`, and  `Song.java`.
-The `SongService` class has a variable named `playlist`, which is a HashMap that holds `Integer`s as keys and `Song` objects as values. Initially, it contains data of 5 songs.
-
-### Completion Instructions
-
-- `Song.java`: The `Song` class should contain the following attributes.
+- `Song.java`: The `Song` class contain the following attributes.
 
     | Attribute     | Type   |
     | ------------- | ------ |
@@ -13,11 +8,11 @@ The `SongService` class has a variable named `playlist`, which is a HashMap that
     | singer        | String |
     | musicDirector | String |
 
-- `SongRepository.java`: Create an interface containing required methods.
-- `SongService.java`: Update the service class with logic for managing song data.
-- `SongController`: Create the controller class to handle HTTP requests.  
+- `SongRepository.java`: interface containing required methods.
+- `SongService.java`: logic for managing song data.
+- `SongController`: controller class to handle HTTP requests.  
 
-Implement the following APIs.
+The following APIs had been Implemented.
 
 ### API 1
 
@@ -140,5 +135,3 @@ Updates the details of a song in the `playlist` based on the `songId`. If the gi
 #### Description:
 
 Deletes a song from the `playlist`  based on the `songId`. If the given `songId` is not found in the `playlist`, raise `ResponseStatusException` with `HttpStatus.NOT_FOUND`.
-
-**Do not modify the code in the `SongApplication.java`.**
