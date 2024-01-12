@@ -13,6 +13,7 @@ public class Song {
         this.songId = songId;
         this.songName = songName;
         this.lyricist = lyricist;
+        this.singer = singer;
         this.musicDirector = musicDirector;
     }
 
