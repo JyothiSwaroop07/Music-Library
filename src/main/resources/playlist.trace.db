@@ -1,0 +1,9 @@
+2024-01-19 13:31:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists playlist([*]"; expected "identifier"; SQL statement:
+create table if not exists playlist( [42001-214]
+2024-01-19 13:40:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from playlist where songName = ? and lyricist = ?[*], singer = ?, musicDirector = ?"; SQL statement:
+select * from playlist where songName = ? and lyricist = ?, singer = ?, musicDirector = ? [42000-214]
+2024-01-19 13:42:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from playlist where songName = ? and lyricist = ?[*], singer = ?, musicDirector = ?"; SQL statement:
+select * from playlist where songName = ? and lyricist = ?, singer = ?, musicDirector = ? [42000-214]
